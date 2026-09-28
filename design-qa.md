@@ -1,3 +1,46 @@
+# Alpha Radar 更新验收 · 2026-09-28
+
+final result: passed
+
+## 目标与证据
+
+来源：用户 Market 长图中的 Master Holdings。范围：替换原个股社区，保留政客、Aime 组合、高收益用户，新增 KOL；既有双列文档、手机框与 Market 背景保持原结构。
+
+- 来源裁图：qa/master-holdings-reference.png。
+- 同画布对照：qa/alpha-radar-reference-comparison.png（Aime 页签源图与实现内容区，归一到 375 px；标题、中文标签、报价和权重为有意适配）。
+- 桌面 1280×1100：qa/alpha-radar-desktop.png、qa/alpha-radar-home-phone.png、qa/alpha-radar-nvda.png。
+- 移动 390×844：qa/alpha-radar-mobile.png、qa/alpha-radar-mobile-nvda.png。
+- 竞品放大：qa/alpha-radar-tipranks-lightbox.png。
+
+## 五项视觉检查
+
+- 字体：沿用 Apple 系统字体/PingFang；价格使用表格数字；层级为标题、代码、报价、多空人数和作者。
+- 布局：Master Holdings 黑色胶囊与横滑卡片保留；KOL 首页 3 只股票完整可见；390 px 下 4 个标签无横向溢出；详情看多／看空完整名单在首屏并列。
+- 颜色：沿用黑白灰和蓝色动作，绿／红表示明确的多空立场，同时保留文字标签。
+- 图片：TipRanks 使用 Tradu 官方集成图，Stocktwits 使用官方发布图，DATAROMA 使用官网持仓截图；可放大且标注来源。人物使用虚构演示身份，不冒充真实作者照片。
+- 文案：原个股社区的导航、标题、说明均替换为 Alpha Radar；覆盖口径为已收录账号。人物、观点、持仓均标注演示，未接入 X。
+
+## 本轮修复与复核
+
+- P2：首页看多／看空人数最初挤在左侧、作者分左右列。已改为人数与名单按列对齐，最终首页截图复核通过。
+- P2：单股首屏仅先看到看多观点。新增首屏双列完整作者名单，两边可点击定位至观点区；手机截图确认双方姓名同时可见。
+- P2：从持仓或作者弹层进入股票可能沿用隐藏关注筛选。持仓跳转重置为 24h/全部 KOL，弹层进入股票展示全部 KOL；源码及交互路径复核。
+
+## 功能验证
+
+- NVDA 默认 3 多/2 空，完整名单与人数一致；KO 24h 为 2 多/0 空，7 天为 2 多/1 空。
+- 观点 → 原帖示例 → KOL 主页 → 其他股票的双向路径通过。
+- 作者关注/取消、只看已关注、空关注、股票搜索无结果、清除恢复 6 只股票通过。
+- 政客/Aime/高收益用户入口、持仓详情、跳转 KOL 页面通过。
+- 加入自选成功，复用每日简报及 AI 发现的共享自选；无重复添加。
+- 24h/7d、最新观点去重、立场变化、中立使旧信号失效、过滤及人数一致性：node .prototype-qa/test-radar.cjs 通过。
+- 原 AI 筛选器状态测试 node .prototype-qa/test-screener.cjs 通过；浏览器简报与筛选详情回归通过，控制台无 error。
+- 当前无遗留 P0/P1/P2。
+
+以下为此前版本历史验收记录。
+
+---
+
 # Ainvest 原型验收
 
 final result: passed

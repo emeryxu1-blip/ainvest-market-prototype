@@ -1,3 +1,15 @@
+# Alpha Radar 图片更新 · 2026-09-28
+
+当前 Alpha Radar 使用三张真实功能图，替换旧社区中的 moomoo/Webull 图。全站仍为 8 张。
+
+- TipRanks Blogger Opinions：Tradu 官方集成图。来源 https://www.tradu.com/my/intelligent-tools/ ，原图 https://assets.tradu.com/hk/images/tradu/intelligent-tools/02-tipranks-blogger.png 。多空比例与作者立场表；已查看原图和优化 WebP（1600×1000）。
+- Stocktwits：保留原官方 Symbol Pages 发布图，出处见下方记录。
+- DATAROMA：直接截取 https://www.dataroma.com/m/holdings.php?m=mc 的持仓页面，裁去广告，优化图 915×440。标注官网截图及历史报告口径。
+
+以下为原社区版本图片核验记录，保留作历史研究；moomoo Stock Comments 和 Webull Community 已不在当前原型中展示。
+
+---
+
 # 竞品缩略图来源
 
 核查日期：2026-09-28。全部图片来自官方页面或官方新闻稿附件，已逐张视觉核验。图片内嵌至 HTML，点击可放大并访问出处。

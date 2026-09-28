@@ -2,11 +2,11 @@
 
 [打开 GitHub Pages 原型](https://emeryxu1-blip.github.io/ainvest-market-prototype/)
 
-中文产品原型：每日简报、个股社区、AI 自选发现。每个功能包含可交互的 Market 首页与二级页，以及需求、解决方案和竞品分析。
+中文产品原型：每日简报、Alpha Radar、AI 自选发现。每个功能包含可交互的 Market 首页与二级页，以及需求、解决方案和竞品分析。
 
 - 所有界面样式、交互脚本、Market 参考图和 8 张竞品功能图均内嵌于 HTML。
 - 点击竞品缩略图可放大，并查看官方来源。
-- 行情、用户、帖子、AI 筛选与交易数据均为演示。操作只保存在当前浏览器，不连接真实交易服务。
+- 行情、KOL、观点、持仓、AI 筛选与交易数据均为演示。操作只保存在当前浏览器，不连接真实交易服务。
 - `index.html` 为 Pages 首页；`stock-prototype.html` 为兼容入口。
 - 仓库中的 Markdown 文件为研究、来源和功能覆盖文档。
 

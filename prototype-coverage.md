@@ -1,3 +1,17 @@
+# 当前原型更新 · Alpha Radar
+
+2026-09-28：原「个股社区」已替换为 Alpha Radar。保留参考图 Master Holdings 的政客、Aime 组合、高收益用户入口，新增 KOL。最新完整范围以 [Alpha Radar 功能清单](alpha-radar-inventory.md) 为准。
+
+- 股票与 KOL 双向浏览；24 小时／7 天；关注与搜索。
+- 单股看多／看空完整作者名单、最新观点、时间及原帖示例。
+- 按作者／股票最新观点去重；中立使旧立场失效；无观点不算看空。
+- 6 位虚构 KOL、6 只股票、40 条观点，无实时 X 接入。
+- 全部人物、持仓与行情均为演示。竞品缩略图更新为 TipRanks、Stocktwits、DATAROMA。
+
+以下为前版覆盖记录；其中社区相关操作已由 Alpha Radar 取代。
+
+---
+
 # Ainvest · Market 原型覆盖清单
 
 核查日期：2026-09-28。主文件：`stock-prototype.html`，包含样式、脚本和 Market 参考图，可直接在浏览器打开。
